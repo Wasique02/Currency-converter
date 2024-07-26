@@ -1,0 +1,62 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: radial-gradient(circle at 10% 20%, rgb(0,0,0) 0%, rgb(74,74,74) 90.2%);
+    background-attachment: fixed;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 35vw;
+    margin: 20vh auto;
+    gap: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(22, 21, 21);
+}
+h1{
+    color: rgb(148, 145, 145);
+    text-align: center;
+    font-weight: 600;
+}
+.box{
+    display: flex;
+}
+select{
+    width: 90%;
+    margin: 0px 10px 10px 10px;
+    padding: 7px;
+    background-color: rgb(204, 194, 194);
+    cursor: pointer;
+}
+input{
+    width: 82%;
+    margin: 10px;
+    padding: 7px;
+    background-color: rgb(85, 85, 85);
+    cursor: pointer;
+    color: white;
+}
+button{
+    margin-bottom: 10px;
+    padding: 7px 20px;
+    font-size: 14px;
+    border-radius: 10px;
+    font-weight: 500;
+    color: rgb(189, 184, 184);
+    background-color: rgb(68, 66, 66);
+    cursor: pointer;
+}
+.errorMsg{
+    color: red;
+    font-size: small;
+}
+@media screen and (max-width:1000px) {
+    .container{
+        width: fit-content;
+        margin-top: 20vh;     
+    }
+}
