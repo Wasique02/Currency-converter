@@ -41,7 +41,6 @@ input{
     color: white;
 }
 button{
-    margin-bottom: 10px;
     padding: 7px 20px;
     font-size: 14px;
     border-radius: 10px;
@@ -53,6 +52,12 @@ button{
 .errorMsg{
     color: red;
     font-size: small;
+}
+.developer{
+    color: white;
+    font-size: 18px;
+    margin-bottom: 10px;
+    
 }
 @media screen and (max-width:1000px) {
     .container{
